@@ -51,7 +51,7 @@ with open("sitenames.txt", 'r') as f:
             8: 'The first character in the IP address is a 8.',
             9: 'The first character in the IP address is a 9.'
         }
-        print(switcher.get(first_char),lambda:"The first character in that variable is not a number.")
+        print(switcher.get(first_char),"The first character in that variable is not a number.")
         print('----------------------------------------')
 
 f.close()
